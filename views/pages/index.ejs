@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+    <script src="/javascript/index.js"></script>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <h1>Table</h1>
+        <p>Some data</p>
+    </div>
+    <table id="table" class="cell-border hover" style="width:100%">
+        <thead>
+        <tr>
+<!--            Change this to your needs, number of th must match number of columns-->
+            <th>ID</th>
+            <th>Title</th>
+            <th>Value</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+    </table>
+</main>
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

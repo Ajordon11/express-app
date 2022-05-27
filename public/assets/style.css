@@ -1,0 +1,10 @@
+.form-select-sm {
+    width: 60px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: none;
+}
